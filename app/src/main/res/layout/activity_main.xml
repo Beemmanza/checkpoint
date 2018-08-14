@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editText3"
         android:layout_width="236dp"
         android:layout_height="45dp"
         android:layout_marginBottom="8dp"
@@ -18,7 +18,7 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="กรุณาใส่อุณหภูมิ"
+        android:hint="กรุณาใส่อุณหภูมิ"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,6 +61,7 @@
         app:layout_constraintVertical_bias="0.096" />
 
     <RadioGroup
+        android:id="@+id/radiogroup"
         android:layout_width="236dp"
         android:layout_height="129dp"
         android:layout_marginBottom="8dp"
